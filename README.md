@@ -1,3 +1,36 @@
 # CryptoManager
 
-Projeto para ajudar a gerenciar/controlar movimentações, lucros e perdas envolvendo criptomoedas.
+Objetivo :
+
+O foco do projeto é desenvolver meus conhecimentos em Firebase e adapters.
+
+Funcionalidades :
+<ul>
+<li>Sistema de login utilizando conta do Google.</li>
+<li>Preço em tempo real das criptmoedas listadas no app através de alguma API de criptmoedas.</li>
+<li>Controle de lucro/perdas.</li>
+<li>Histórico de compras e vendas adicionadas pelo usuário.</li>
+<li>Calculos de preço médio e impostos sobre, compra/venda/saque.</li>
+</ul>
+
+<ul>
+Desafios :
+<li>Exibir gráficos.</li>
+<li>Compartilhar print dos valores gerenciados.</li>
+</ul>
+
+Arquitetura :
+<ul>
+<li>MVVM</li>
+</ul>
+
+Principais Tecnologias :
+<ul>
+<li>FireBase</li>
+<li>Alguma API de criptmoedas para pegar valroes em tempo reais</li>
+<li>Koin</li>
+<li>Coroutines</li>
+<li>Retrofit2</li>
+<li>RecyclerView</li>
+<li>Constraint Layout</li>
+</ul>
