@@ -27,7 +27,7 @@ Arquitetura :
 Principais Tecnologias :
 <ul>
 <li>FireBase</li>
-<li>Alguma API de criptmoedas para pegar valroes em tempo reais</li>
+<li>Alguma API de criptmoedas para pegar valores em tempo real</li>
 <li>Koin</li>
 <li>Coroutines</li>
 <li>Retrofit2</li>
