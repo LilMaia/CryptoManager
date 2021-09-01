@@ -13,8 +13,9 @@ Funcionalidades :
 <li>Calculos de preço médio e impostos sobre, compra/venda/saque.</li>
 </ul>
 
-<ul>
+
 Desafios :
+<ul>
 <li>Exibir gráficos.</li>
 <li>Compartilhar print dos valores gerenciados.</li>
 </ul>
