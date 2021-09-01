@@ -2,7 +2,7 @@
 
 Objetivo :
 
-O foco do projeto é desenvolver meus conhecimentos em Firebase e adapters.
+O foco do projeto é desenvolver meus conhecimentos em Firebase e Adapters.
 
 Funcionalidades :
 <ul>
