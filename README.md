@@ -7,8 +7,8 @@ O foco do projeto é desenvolver meus conhecimentos em Firebase e Adapters.
 Funcionalidades :
 <ul>
 <li>Sistema de login utilizando conta do Google.</li>
- <li>Salvamento de dados do usuário via firebase</li>
-<li>Preço em tempo real das criptmoedas listadas no app através de alguma API de criptmoedas.</li>
+ <li>Salvamento de dados do usuário via firebase.</li>
+<li>Preço em tempo real das criptmoedas listadas no app através de API.</li>
 <li>Controle de lucro/perdas.</li>
 <li>Calculos de preço médio e impostos sobre, compra/venda/saque.</li>
 </ul>
