@@ -28,6 +28,7 @@ Arquitetura :
 
 Principais Tecnologias :
 <ul>
+<li>OkHttpClient</li>
 <li>FireBase</li>
 <li>API de criptmoedas para pegar valores em tempo real</li>
 <li>Koin</li>
