@@ -28,6 +28,8 @@ Arquitetura :
 
 Principais Tecnologias :
 <ul>
+<li>Bitmap para gerar Screenshots</li> 
+<li>Motion Layout</li>
 <li>OkHttpClient</li>
 <li>FireBase</li>
 <li>API de criptmoedas para pegar valores em tempo real</li>
