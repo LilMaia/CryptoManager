@@ -28,12 +28,14 @@ Arquitetura :
 
 Principais Tecnologias :
 <ul>
-<li>Directions/Safe Args</li>
-<li>Bitmap para gerar Screenshots</li> 
 <li>Motion Layout</li>
-<li>OkHttpClient</li>
-<li>FireBase</li>
+<li>FireBase Auth</li>
+<li>MPAndroidChart</li>
+ <li>Bitmap para gerar Screenshots</li> 
+<li>Directions/Safe Args</li>
 <li>API Mercado Bitcoin</li>
+<li>OkHttpClient</li>
+<li>Firebase Database</li>
 <li>Koin</li>
 <li>Coroutines</li>
 <li>Retrofit2</li>
