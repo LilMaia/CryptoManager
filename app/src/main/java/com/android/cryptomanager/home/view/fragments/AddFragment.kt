@@ -65,8 +65,6 @@ class AddFragment : Fragment() {
         addViewModel.currentValueLive.observe(viewLifecycleOwner) {
             binding.valueInvested.text = "R$ " + decimalFormat.format(it)
             addViewModel.calculaPrecoMedio()
-            addViewModel.calculoParcial()
-            addViewModel.calculoTotal()
         }
 
         addViewModel.currentQuantieLive.observe(viewLifecycleOwner) {
@@ -76,8 +74,6 @@ class AddFragment : Fragment() {
         addViewModel.coinPrice.observe(viewLifecycleOwner) {
             binding.actualCoinValue.text = "R$ " + decimalFormat.format(it.toDouble())
             addViewModel.calculaPrecoMedio()
-            addViewModel.calculoParcial()
-            addViewModel.calculoTotal()
         }
 
         addViewModel.mediumPrice.observe(viewLifecycleOwner) {
@@ -118,11 +114,7 @@ class AddFragment : Fragment() {
                     quantidade = "0.0"
                 }
             }
-
-            addViewModel.insertNewValue(valor, quantidade)
             addViewModel.calculaPrecoMedio()
-            addViewModel.calculoParcial()
-            addViewModel.calculoTotal()
         }
 
         builder.setNegativeButton("Cancelar") { dialog, _ -> dialog.cancel() }
@@ -155,10 +147,7 @@ class AddFragment : Fragment() {
                 }
             }
 
-            addViewModel.removeValue(valor, quantidade)
             addViewModel.calculaPrecoMedio()
-            addViewModel.calculoParcial()
-            addViewModel.calculoTotal()
         }
 
         builder.setNegativeButton("Cancelar") { dialog, _ -> dialog.cancel() }

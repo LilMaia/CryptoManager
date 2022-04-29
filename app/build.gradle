@@ -3,7 +3,6 @@ plugins {
     id 'kotlin-android'
     id 'androidx.navigation.safeargs'
     id 'kotlin-kapt'
-    id 'com.google.gms.google-services'
     id 'kotlin-android-extensions'
 }
 
@@ -11,7 +10,7 @@ android {
     compileSdk 31
 
     defaultConfig {
-        applicationId "com.android.cryptomanager"
+        applicationId "com.justecho.pocsubscription"
         minSdk 26
         targetSdk 31
         versionCode 1
