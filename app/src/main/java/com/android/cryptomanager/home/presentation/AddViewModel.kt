@@ -3,13 +3,8 @@ package com.android.cryptomanager.home.presentation
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import androidx.lifecycle.viewModelScope
-import com.android.cryptomanager.home.data.models.BitcoinUserData
-import com.android.cryptomanager.home.data.models.ChilizUserData
 import com.android.cryptomanager.home.data.models.CryptoCard
-import com.android.cryptomanager.home.data.models.EthereumUserData
 import com.android.cryptomanager.home.data.repositories.HomeRepository
-import kotlinx.coroutines.launch
 
 class AddViewModel(private val cryptoCard: CryptoCard, private val homeRepository: HomeRepository) :
     ViewModel() {

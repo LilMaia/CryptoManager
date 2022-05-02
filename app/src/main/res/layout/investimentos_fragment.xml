@@ -14,7 +14,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:title="Investimentos"
+        app:title="Testes"
         app:titleCentered="true"
         app:titleTextColor="@color/orange" />
 
@@ -74,7 +74,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/invest_start_margin"
                 android:layout_marginTop="16dp"
-                android:text="@string/my_capital"
+                android:text="Subscription Test"
                 android:textSize="12sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/user_name" />
@@ -88,7 +88,7 @@
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/my_capital"
-                tools:text="@string/capital_value" />
+                tools:text="..................." />
 
             <TextView
                 android:id="@+id/wallet_dristibuttion"
@@ -96,26 +96,48 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/invest_start_margin"
                 android:layout_marginTop="20dp"
-                android:text="@string/wallet_distribution"
+                android:text="Subscription status :"
                 android:textSize="15sp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/capital_value" />
 
-            <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/recyclerview_criptomoedas_menu"
+            <TextView
+                android:id="@+id/premium_content"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="16dp"
-                android:clickable="true"
-                android:elevation="20dp"
-                android:focusable="true"
-                android:orientation="vertical"
-                android:overScrollMode="never"
-                app:layoutManager="LinearLayoutManager"
+                android:layout_height="0dp"
+                android:layout_weight="4"
+                android:text="Premium Content"
+                android:gravity="center"
+                android:layout_marginTop="50dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/wallet_dristibuttion"
-                tools:listitem="@layout/criptomoeda_card_view" />
+                android:visibility="visible"
+                />
+            <TextView
+                android:id="@+id/subscription_status"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="4"
+                android:text="status"
+                android:layout_marginTop="40dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/premium_content"
+                android:gravity="center"
+                />
+            <Button
+                android:id="@+id/subscribe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="subscribe"
+                android:backgroundTint="@color/gold"
+                android:layout_marginTop="320dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/subscription_status"
+                android:layout_marginHorizontal="16dp"
+                android:visibility="visible"
+                android:onClick="subscribe"
+                />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>

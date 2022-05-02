@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <item
-        android:id="@+id/overviewFragment"
-        android:icon="@drawable/ic_overview"
-        android:title="@string/visao_geral"
-        app:hintEnabled="false" />
-    <item
-        android:id="@+id/investimentosFragment"
-        android:icon="@drawable/ic_investimentos"
-        android:title="@string/investiments"
-        app:hintEnabled="false" />
+<!--    <item-->
+<!--        android:id="@+id/overviewFragment"-->
+<!--        android:icon="@drawable/ic_overview"-->
+<!--        android:title="@string/visao_geral"-->
+<!--        app:hintEnabled="false" />-->
+<!--    <item-->
+<!--        android:id="@+id/investimentosFragment"-->
+<!--        android:icon="@drawable/ic_investimentos"-->
+<!--        android:title="@string/investiments"-->
+<!--        app:hintEnabled="false" />-->
 </menu>
